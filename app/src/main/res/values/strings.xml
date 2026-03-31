@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Kindly</string>
+    <string name="login_title">KINDLY</string>
+    <string name="label_email">E-MAIL</string>
+    <string name="hint_email">EMAIL</string>
+    <string name="label_password">SENHA</string>
+    <string name="hint_password">PASSWORD</string>
+    <string name="btn_login">LOGIN</string>
+    <string name="btn_no_account">NÃO TENHO CONTA</string>
+    <string name="logotipo_kindly">Logotipo Kindly</string>
+    <string name="cadastro_title">FAÇA PARTE DO KINDLY</string>
+    <string name="label_nome">EMAIL</string>
+    <string name="hint_id_email">EMAIL...</string>
+    <string name="label_confirm_password">CONFIRME A SENHA</string>
+    <string name="btn_cadastra">CADASTRE-SE</string>
+    <string name="home_title">Kindly.</string>
+    <string name="hint_search">quem doar?</string>
+    <string name="home_subtitle">Faça o bem e doe com confiança</string>
+    <string name="home_sub_highlights">confira os destaques</string>
+    <string name="home_section_ongs">ONGs recomendadas</string>
+    <string name="profile_name">Nome do Usuário</string>
+    <string name="menu_transferir">Transferir</string>
+    <string name="menu_conversao">Conversão Dinheiro</string>
+    <string name="menu_doacoes">Minhas Doações</string>
+    <string name="menu_ajuda">Precisa de Ajuda?</string>
+    <string name="menu_info">Informações Importantes</string>
+    <string name="profile_footer">Kindly, um oceano de possibiliades</string>
+</resources>
