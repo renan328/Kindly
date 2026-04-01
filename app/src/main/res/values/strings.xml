@@ -25,4 +25,18 @@
     <string name="menu_ajuda">Precisa de Ajuda?</string>
     <string name="menu_info">Informações Importantes</string>
     <string name="profile_footer">Kindly, um oceano de possibiliades</string>
+    <string name="ongs">ONGs</string>
+    <string name="kindly_um_oceano_de_possibilidades">Kindly, um oceano de possibilidades</string>
+    <string name="meio_ambiente">Meio Ambiente</string>
+    <string name="mundo_limpo">Mundo Limpo</string>
+    <string name="educa_o">Educação</string>
+    <string name="educakids">EducaKids</string>
+    <string name="sustentabilidade">Sustentabilidade</string>
+    <string name="sustentable">Sustentable</string>
+    <string name="animais">Animais</string>
+    <string name="felizes_animais">Felizes animais</string>
+    <string name="lorem">• Lorem Ipsum is simply dummy text of the printing and typesetting industry.\n\n• Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</string>
+    <string name="lorem2">Missão : Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s.</string>
+    <string name="feitos">Feitos :</string>
+    <string name="realizar_doa_o">Realizar Doação</string>
 </resources>

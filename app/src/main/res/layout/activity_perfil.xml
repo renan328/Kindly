@@ -2,7 +2,7 @@
 <androidx.constraintlayout.widget.ConstraintLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#FFFFFF">
@@ -48,7 +48,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="24dp"
-        android:text="@string/profile_name"
+        android:text="Seu Nome"
         android:textColor="#FFFFFF"
         android:textSize="24sp"
         android:textStyle="bold"
@@ -73,24 +73,18 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
-                android:weightSum="3">
-
-                <include
-                    android:id="@+id/includeTransferir"
-                    layout="@layout/item_profile_menu"
-                    android:layout_width="0dp"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1" />
-
-                <include
-                    android:id="@+id/includeConversao"
-                    layout="@layout/item_profile_menu"
-                    android:layout_width="0dp"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1" />
+                android:gravity="center"
+                android:weightSum="2">
 
                 <include
                     android:id="@+id/includeDoacoes"
+                    layout="@layout/item_profile_menu"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1" />
+
+                <include
+                    android:id="@+id/includeAjuda"
                     layout="@layout/item_profile_menu"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
@@ -100,7 +94,7 @@
             <com.google.android.material.card.MaterialCardView
                 android:layout_width="match_parent"
                 android:layout_height="160dp"
-                android:layout_marginTop="24dp"
+                android:layout_marginTop="32dp"
                 app:cardCornerRadius="32dp"
                 app:cardElevation="0dp">
                 <ImageView
@@ -110,35 +104,39 @@
                     android:src="@drawable/banner_perfil" />
             </com.google.android.material.card.MaterialCardView>
 
-            <LinearLayout
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnEditarPerfil"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="24dp"
-                android:orientation="horizontal"
-                android:gravity="center"
-                android:weightSum="3">
+                android:layout_height="65dp"
+                android:layout_marginTop="40dp"
+                android:text="Editar Perfil"
+                android:textAllCaps="false"
+                android:textColor="#5770A4"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                app:backgroundTint="#F2F2F2"
+                app:cornerRadius="16dp"
+                app:strokeColor="#CCCCCC"
+                app:strokeWidth="1dp" />
 
-                <include
-                    android:id="@+id/includeAjuda"
-                    layout="@layout/item_profile_menu"
-                    android:layout_width="0dp"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1" />
-
-                <include
-                    android:id="@+id/includeInfo"
-                    layout="@layout/item_profile_menu"
-                    android:layout_width="0dp"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1" />
-            </LinearLayout>
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnExcluirConta"
+                android:layout_width="match_parent"
+                android:layout_height="65dp"
+                android:layout_marginTop="16dp"
+                android:text="Excluir Conta"
+                android:textAllCaps="false"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp"
+                app:backgroundTint="#F08080"
+                app:cornerRadius="16dp" />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="32dp"
                 android:layout_marginBottom="16dp"
-                android:text="@string/profile_footer"
+                android:text="Kindly, um oceano de possibilidades"
                 android:textAlignment="center"
                 android:textColor="#2D3E50"
                 android:textStyle="bold"

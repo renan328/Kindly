@@ -12,6 +12,21 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Kindly">
         <activity
+            android:name=".MinhasDoacoesActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DoacaoFinalizadaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".TransferirActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DetalheOngActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ListaOngsActivity"
+            android:exported="false" />
+        <activity
             android:name=".PerfilActivity"
             android:exported="false" />
         <activity
