@@ -82,23 +82,15 @@
                 android:textSize="20sp"
                 android:textStyle="bold" />
 
-            <LinearLayout
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rvOngsHome"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="16dp"
-                android:orientation="vertical"
                 android:background="@drawable/shape_list_background"
-                android:padding="8dp">
-
-                <include layout="@layout/item_ong_fixo" />
-                <include layout="@layout/item_ong_fixo" />
-                <include layout="@layout/item_ong_fixo" />
-                <include layout="@layout/item_ong_fixo" />
-                <include layout="@layout/item_ong_fixo" />
-                <include layout="@layout/item_ong_fixo" />
-                <include layout="@layout/item_ong_fixo" />
-
-            </LinearLayout>
+                android:padding="8dp"
+                android:nestedScrollingEnabled="false"
+                tools:listitem="@layout/item_ong_fixo" />
 
         </LinearLayout>
     </androidx.core.widget.NestedScrollView>

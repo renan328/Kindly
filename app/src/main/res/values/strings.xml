@@ -9,7 +9,7 @@
     <string name="btn_no_account">NÃO TENHO CONTA</string>
     <string name="logotipo_kindly">Logotipo Kindly</string>
     <string name="cadastro_title">FAÇA PARTE DO KINDLY</string>
-    <string name="label_nome">EMAIL</string>
+    <string name="label_nome">NOME</string>
     <string name="hint_id_email">EMAIL...</string>
     <string name="label_confirm_password">CONFIRME A SENHA</string>
     <string name="btn_cadastra">CADASTRE-SE</string>
@@ -39,4 +39,6 @@
     <string name="lorem2">Missão : Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s.</string>
     <string name="feitos">Feitos :</string>
     <string name="realizar_doa_o">Realizar Doação</string>
+    <string name="editar_perfil">Editar Perfil</string>
+    <string name="todo">TODO</string>
 </resources>

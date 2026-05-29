@@ -3,8 +3,8 @@ package com.example.kindly
 import android.content.Intent
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
+import androidx.recyclerview.widget.LinearLayoutManager
 import com.example.kindly.databinding.ActivityListaOngsBinding
-import com.example.kindly.DetalheOngActivity
 
 class ListaOngsActivity : AppCompatActivity() {
 
@@ -16,14 +16,24 @@ class ListaOngsActivity : AppCompatActivity() {
         binding = ActivityListaOngsBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        binding.itemOngFelizes.setOnClickListener {
-            val intent = Intent(this, DetalheOngActivity::class.java)
-            intent.putExtra("NOME_ONG", "Felizes Animais")
-            intent.putExtra("CATEGORIA_ONG", "Animais")
-            startActivity(intent)
-        }
         binding.btnBack.setOnClickListener {
             finish()
+        }
+
+        configurarLista()
+    }
+
+    private fun configurarLista() {
+        val todasOngs = OngRepository.obterTodas()
+
+        binding.rvListaTodasOngs.layoutManager = LinearLayoutManager(this)
+
+        binding.rvListaTodasOngs.adapter = ListaOngAdapter(todasOngs) { ongSelecionada ->
+            val intent = Intent(this, DetalheOngActivity::class.java)
+
+            intent.putExtra("ONG_ID", ongSelecionada.id)
+
+            startActivity(intent)
         }
     }
 }

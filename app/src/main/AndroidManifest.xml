@@ -12,6 +12,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Kindly">
         <activity
+            android:name=".AlterarDoacaoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".EditarPerfilActivity"
+            android:exported="false" />
+        <activity
             android:name=".MinhasDoacoesActivity"
             android:exported="false" />
         <activity

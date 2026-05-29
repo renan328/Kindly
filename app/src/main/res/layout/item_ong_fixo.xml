@@ -9,6 +9,7 @@
     android:gravity="center_vertical">
 
     <com.google.android.material.card.MaterialCardView
+        android:id="@+id/cardAvatarOng"
         android:layout_width="48dp"
         android:layout_height="48dp"
         app:cardCornerRadius="24dp"
@@ -29,6 +30,7 @@
         android:layout_marginStart="16dp">
 
         <TextView
+            android:id="@+id/tvNomeOng"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Nome da ONG Exemplo"
@@ -37,6 +39,7 @@
             android:textColor="#2D3E50" />
 
         <TextView
+            android:id="@+id/tvCausaOng"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Causa: Meio Ambiente"
